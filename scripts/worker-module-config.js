@@ -37,6 +37,15 @@ const CONFIG = {
 
   stats: 'minimal',
 
+  experiments: {
+    outputModule: true
+  },
+
+  output: {
+    module: true,
+    libraryTarget: 'module'
+  },
+
   resolve: {
     alias: ALIASES
   },

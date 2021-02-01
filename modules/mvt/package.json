@@ -27,9 +27,9 @@
     "README.md"
   ],
   "scripts": {
-    "pre-build": "npm run build-worker && npm run build-worker --env.dev && npm run build-bundle && npm run build-bundle -- --env.dev",
-    "build-worker": "webpack --entry ./src/workers/mvt-loader.worker.js --output ./dist/mvt-loader.worker.js --config ../../scripts/worker-webpack-config.js",
-    "build-bundle": "webpack --display=minimal --config ../../scripts/bundle.config.js"
+    "pre-build": "npm run build-worker && npm run build-worker --env=dev && npm run build-bundle && npm run build-bundle -- --env=dev",
+    "build-worker": "webpack --entry ./src/workers/mvt-loader.worker.js -o ./dist/mvt-loader.worker.js --config ../../scripts/worker-webpack-config.js",
+    "build-bundle": "webpack --stats=none --config ../../scripts/bundle.config.js"
   },
   "dependencies": {
     "@loaders.gl/gis": "3.0.0-alpha.4",

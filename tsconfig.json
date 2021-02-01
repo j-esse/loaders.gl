@@ -81,15 +81,25 @@
     }
   },
   "exclude":[
-    "**/modules/**/src/libs/*",
+    "**/modules/tile-converter/src/**/*",
+    "**/modules/3d-tiles/src/**/*",
+    "**/modules/i3s/src/**/*",
     "**/modules/tiles/src/**/*",
     "**/modules/tiles/test/**/*",
     "**/modules/*/dist/**/*",
     "**/modules/**/wip/**/*",
+    "**/arrowjs/**/*",
+
+    "**/modules/**/src/libs/*",
+    "**/modules/*/dist/**/*",
+
     "**/examples/**/*",
     "**/coverage/**/*",
-    "**/arrowjs/**/*",
+    "website",
+    "test/**/*",
     "**/website/**/*",
-    "**/test/**/*"
+    "**/test/**/*",
+
+    "**/node_modules"
   ]
 }

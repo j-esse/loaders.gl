@@ -34,12 +34,12 @@ function getExternals(packageInfo) {
 }
 
 const NODE = {
-  Buffer: false,
-  fs: 'empty',
-  http: 'empty',
-  https: 'empty',
-  path: 'empty',
-  crypto: 'empty'
+  // Buffer: false,
+  // fs: 'empty',
+  // http: 'empty',
+  // https: 'empty',
+  // path: 'empty',
+  // crypto: 'empty'
 };
 
 const BABEL_CONFIG = {
