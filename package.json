@@ -67,5 +67,6 @@
   "resolutions": {
     "puppeteer": "1.16.0",
     "draco3d": "1.4.1"
-  }
+  },
+  "dependencies": {}
 }

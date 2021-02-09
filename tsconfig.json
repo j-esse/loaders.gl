@@ -83,9 +83,7 @@
     }
   },
   "exclude":[
-    "SPECIFIC-MODULE-EXCEPTIONS-TO-BE-REMOVED-ASAP",
-    "**/modules/compression/test/**/*",
-    "**/modules/crypto/test/**/*",
+    "SPECIFIC-MODULE-EXCEPTIONS",
     "**/modules/excel/test/**/*",
     "**/modules/loader-utils/test/**/*",
     "**/modules/tiles/src/**/*",
@@ -93,7 +91,6 @@
     "**/modules/i3s/test/**/*",
     "**/modules/tile-converter/test/**/*",
     "**/modules/textures/test/**/*",
-    "**/modules/worker-utils/test/**/*",
 
     "GENERAL_EXCEPTIONS",
     "**/modules/**/src/libs/*",
